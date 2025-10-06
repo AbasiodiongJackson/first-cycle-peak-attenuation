@@ -43,43 +43,37 @@ Install dependencies via pip:
 pip install numpy scipy matplotlib joblib
 
 ```
-File Structure
 
-beam_control_project/
-│
-├─ README.md
-├─ main_simulation.py       # Main Python script combining ML + PID
-├─ rf_firstpeak_model.pkl   # Trained ML model for first peak prediction
-├─ rf_zerocross_model.pkl   # Trained ML model for zero-cross prediction
-└─ plots/                   # Optional: folder to save generated figures
+## How to Run
 
-How to Run
+1. Clone or download the repository.
 
-Clone or download the repository.
+2. .pkl ML model files are available upon request.
 
-Make sure all .pkl ML model files are in the project folder.
+3. Run the main simulation:
 
-Run the main simulation:
-
+```bash
 python main_simulation.py
+```
 
-The plots will display system response comparisons.
+4. The plots will display system response comparisons.
 
-Notes
+## Notes
 
-The ML models should be pre-trained and saved in .pkl format.
+- For a different system, the ML models should be pre-trained and saved in .pkl format.
 
-The scaling factor (alpha) ensures the ML-generated impulse amplitude matches the system response.
+- The scaling factor (alpha) ensures the ML-generated impulse amplitude matches the system response.
 
-PID gains can be adjusted in the scripts (Kp, Ki, Kd) for tuning.
+- PID gains can be adjusted in the scripts (Kp, Ki, Kd) for tuning.
 
-Author
+## Author
 
 Dr. Abasiodiong Jackson
 
-License
+## License
 
 MIT License
+
 
 
 
