@@ -27,13 +27,14 @@ git clone https://github.com/your-username/ml-beam-control.git
 cd ml-beam-control
 ```
 2. Install required Python packages:
-   ```bash
+```bash
 pip install numpy matplotlib scipy scikit-learn joblib
+
 ```
 ## Usage
 1. Ensure the trained ML models are available in the repository:
- ```bash - rf_firstpeak_model.pkl ```
- ```bash - rf_zerocross_model.pkl ```
+```bash - rf_firstpeak_model.pkl ```
+```bash - rf_zerocross_model.pkl ```
 
 2. Run the main simulation script:
 ```bash
