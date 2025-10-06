@@ -33,9 +33,12 @@ pip install numpy matplotlib scipy scikit-learn joblib
 ```
 ## Usage
 1. Ensure the trained ML models are available in the repository:
-   - rf_firstpeak_model.pkl 
-   - rf_zerocross_model.pkl 
-
+```bash
+- rf_firstpeak_model.pkl 
+```
+```bash
+- rf_zerocross_model.pkl 
+```
 3. Run the main simulation script:
 ```bash
 python first-cycle-peak-attenuation.py
