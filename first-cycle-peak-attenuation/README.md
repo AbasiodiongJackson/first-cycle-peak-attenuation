@@ -42,8 +42,7 @@ Install dependencies via pip:
 ```bash
 pip install numpy scipy matplotlib joblib
 
-```bash
-
+```
 File Structure
 
 beam_control_project/
@@ -81,5 +80,6 @@ Dr. Abasiodiong Jackson
 License
 
 MIT License
+
 
 
